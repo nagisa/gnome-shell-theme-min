@@ -1,0 +1,230 @@
+/* Message Tray */
+#message-tray {
+    height: 2.5em;
+}
+
+#notification {
+    background: #343838;
+    spacing-rows: .5em;
+    spacing-columns: .5em;
+    width: 32em;
+    padding: .5em;
+}
+
+/* We use row-span = 2 for the image cell, which prevents its height preferences to be
+   taken into account during allocation, so its height ends up being limited by the height
+   of the content in the other rows. To avoid showing a stretched image, we set the minimum
+   height of the table to be ICON_SIZE + IMAGE_SIZE + spacing-rows = 24 + 125 + 10 = 159 */
+.notification-with-image {
+    min-height: 159px;
+}
+
+.summary-boxpointer {
+    -arrow-border-radius: 0;
+    -arrow-background-color: #323838;
+    -arrow-border-width: 0;
+    -arrow-border-color: transparent;
+    -arrow-base: 0;
+    -arrow-rise: 0;
+    -boxpointer-gap: 0px;
+}
+
+.summary-boxpointer #notification {
+    padding: .5em;
+}
+
+#summary-notification-stack-scrollview {
+    max-height: 20em;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#summary-notification-stack-scrollview > .top-shadow,
+#summary-notification-stack-scrollview > .bottom-shadow,
+#notification-scrollview > .top-shadow,
+#notification-scrollview > .bottom-shadow {
+    height: .5em;
+}
+
+#summary-notification-stack-scrollview:ltr {
+}
+
+#summary-notification-stack-scrollview:rtl {
+}
+
+#notification-scrollview {
+    max-height: 15em;
+    -st-vfade-offset: 24px;
+}
+
+#notification-scrollview:ltr > StScrollBar {
+}
+
+#notification-scrollview:rtl > StScrollBar {
+}
+
+#notification-body {
+    spacing: 1em;
+}
+
+#notification-actions {
+    spacing: 1em;
+}
+
+.notification-button {
+}
+
+.notification-button:focus {
+}
+
+.notification-icon-button {
+}
+
+.notification-icon-button:focus {
+}
+
+.notification-icon-button > StIcon {
+    icon-size: 1em;
+}
+
+.hotplug-transient-box {
+    spacing: .5em;
+    padding: 0;
+}
+
+.hotplug-notification-item-icon {
+    icon-size: 24px;
+    padding: 0 .5em 0 0;
+}
+
+.hotplug-resident-box {
+    spacing: .25em;
+}
+
+.hotplug-resident-mount {
+    border: 1px solid rgba(255, 249, 242, .5);
+    border-right: none;
+    color: #FFF9F2;
+}
+
+.hotplug-resident-mount:hover {
+    background: #005F6B;
+}
+
+.hotplug-resident-mount:focus,
+.hotplug-resident-mount:active {
+    background: #008C9E;
+}
+
+.hotplug-resident-mount-label {
+    color: inherit;
+}
+
+.hotplug-resident-mount-icon {
+    icon-size: 32px;
+    padding: 0 .25em;
+}
+
+.hotplug-resident-eject-icon {
+    icon-size: 24px;
+}
+
+.hotplug-resident-eject-button {
+}
+
+.chat-log-message {
+    color: #FFF9F2;
+}
+
+.chat-group-sent, .chat-group-meta {
+    padding: 0;
+}
+
+.chat-received {
+    padding: 0 0 0 .5em;
+}
+
+.chat-received:rtl {
+    padding: 0 .5em 0 0;
+}
+
+.chat-sent {
+    padding: 0 .5em 0 1em;
+    text-align: right;
+    color: rgba(255, 249, 242, .7);
+}
+
+.chat-sent:rtl {
+    padding: 0 1em 0 .5em;
+    text-align: left;
+}
+
+.chat-meta-message {
+    font-size: .85em;
+    padding: 0 .5em 0 0;
+    color: rgba(255, 249, 242, .5);
+}
+
+.chat-meta-message:rtl {
+    padding: 0 0 0 .5em;
+}
+
+.subscription-message {
+    font-style: italic;
+}
+/* The spacing and padding on the summary is tricky; we want to keep
+ * the icons from touching each other or the edges of the screen, but
+ * we also want them to be "Fitts"-y with respect to the edges, so the
+ * summary area's bottom and right padding must actually be part of
+ * the icons. However, we can't put *all* of the padding into the
+ * icons, because then the summary would be 0x0 when there were no
+ * icons in it, and so you wouldn't be able to hover over it to
+ * activate it.
+ *
+ * Also, the spacing between a summary-source's icon and title is
+ * actually specified as padding-left in source-title, because we
+ * want the spacing to collapse along with the title.
+ */
+#summary-mode {
+    background: #343838;
+    height: 2.5em;
+}
+
+.summary-source-button {
+    padding: .25em .125em;
+}
+
+.summary-source-button:hover .summary-source,
+.summary-source-button:hover .summary-source-counter,
+.summary-source-button:hover {
+    background: #005F7B;
+}
+
+.summary-source-button:selected .summary-source,
+.summary-source-button:selected .summary-source-counter,
+.summary-source-button:expanded:selected .summary-source,
+.summary-source-button:expanded:selected .summary-source-counter,
+.summary-source-button:expanded:selected {
+    background: #008C9E;
+}
+
+.summary-source {
+    padding-right: .25em;
+    padding-left: .25em;
+}
+
+.summary-source-counter {
+    background-color: #343838;
+    font-size: .85em;
+    min-height: 1em;
+    min-width: 1em;
+}
+
+.source-title {
+    padding-left: .25em;
+}
+
+.source-title:rtl {
+    padding-left: 0;
+    padding-right: .25em;
+}

@@ -1,0 +1,93 @@
+#altTabPopup {
+    padding: 0;
+    spacing: 0;
+}
+
+.switcher-list {
+    background: #343838;
+}
+
+.switcher-list-item-container {
+    spacing: 0;
+}
+
+.thumbnail-scroll-gradient-left {
+    background-gradient-direction: horizontal;
+    background-gradient-start: rgba(52, 56, 56, 1.0);
+    background-gradient-end: rgba(52, 56, 56, 0);
+    width: 2em;
+}
+
+.thumbnail-scroll-gradient-right {
+    background-gradient-direction: horizontal;
+    background-gradient-start: rgba(52, 56, 56, 0);
+    background-gradient-end: rgba(52, 56, 56, 1.0);
+    width: 2em;
+}
+
+.switcher-list .item-box {
+    padding: .5em;
+}
+
+.switcher-list .item-box:outlined {
+    background: #008C9E;
+}
+
+.switcher-list .item-box:selected {
+    background: #005F6B;
+}
+
+.switcher-list .thumbnail-box {
+    padding: 0;
+    spacing: 0;
+}
+
+.switcher-list .thumbnail {
+    width:  256px;
+}
+
+.switcher-list .separator {
+    width: 1px;
+    background: rgba(255, 249, 242, .7);
+}
+
+.switcher-arrow {
+    border-color: rgba(255, 249, 242, .7);
+    color: rgba(255, 249, 242, .7);
+}
+
+.switcher-arrow:highlighted {
+    border-color: #FFF9F2;
+    color: #FFF9F2;
+}
+
+/* Workspace Switcher */
+.workspace-switcher-group {
+    padding: 0;
+}
+
+.workspace-switcher-container {
+}
+
+.workspace-switcher {
+    spacing: .5em;
+    padding: .5em;
+}
+
+.ws-switcher-active-up {
+    height: 5em;
+    background: #343838;
+    outline: .5em solid #008C9E;
+}
+
+.ws-switcher-active-down {
+    height: 5em;
+    background: #343838;
+    outline: .5em solid #008C9E;
+}
+
+.ws-switcher-box {
+    height: 5em;
+    background: #343838;
+}
+

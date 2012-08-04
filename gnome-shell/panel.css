@@ -1,0 +1,92 @@
+#panel {
+    background-color: #343838;
+    height: 1.75em;
+}
+
+.system-status-icon {
+    icon-size: 1em;
+}
+
+.panel-corner {
+    -panel-corner-radius: 0;
+    -panel-corner-background-color: transparent;
+    -panel-corner-border-width: 0;
+    -panel-corner-border-color: transparent;
+}
+
+#panelLeft, #panelCenter {
+    spacing: 0;
+}
+
+#panelLeft:ltr {
+}
+
+#panelLeft:rtl {
+}
+
+#panelRight:ltr {
+}
+
+#panelRight:rtl {
+}
+
+#appMenu {
+    spacing: 0;
+}
+
+.label-shadow {
+    color: #343838;
+}
+
+.panel-button #appMenuIcon {
+    app-icon-bottom-clip: 0;
+}
+
+.app-menu-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.panel-button {
+    -natural-hpadding: 5px;
+    -minimum-hpadding: 5px;
+}
+
+.panel-button:hover {
+    background: #005F6B;
+}
+
+.panel-button:active,
+.panel-button:overview,
+.panel-button:focus {
+    background: #008C9E;
+}
+
+.panel-status-button:active,
+.panel-status-button:checked,
+.panel-status-button:focus {
+    background: #008C9E;
+}
+
+.panel-menu {
+    -boxpointer-gap: 1px;
+}
+
+.ripple-box {
+    width: 2em;
+    height: 2em;
+    background: #005F6B;
+    border: .25em solid #008C9E;
+    border-radius: 0 0 2em 0;
+    border-top: none;
+}
+
+.ripple-box:ltr {
+    border-left: none;
+}
+
+.ripple-box:rtl {
+    border-right: none;
+    border-radius: 0 0 0 2em;
+}
+

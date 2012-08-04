@@ -1,0 +1,126 @@
+.popup-menu-boxpointer {
+    -arrow-border-radius: 0;
+    -arrow-background-color: #343838;
+    -arrow-border-width: 0;
+    -arrow-border-color: transparent;
+    -arrow-base: 0;
+    -arrow-rise: 0;
+}
+
+.popup-menu {
+    min-width: 200px;
+}
+
+.popup-combo-menu {
+    background-color: rgba(0,0,0,0.9);
+    padding: 0;
+}
+
+/* The remaining popup-menu sizing is all done in ems, so that if you
+ * override .popup-menu.font-size, everything else will scale with it.
+ */
+.popup-menu-content {
+    padding: 0;
+}
+
+.popup-menu-item {
+    padding: .5em 1.5em;
+    spacing: .25em;
+}
+
+.popup-menu-item:active {
+    background-color: #005F6B;
+}
+
+.popup-menu-item:insensitive {
+    color: #9f9f9f;
+}
+
+.popup-image-menu-item {
+}
+
+.popup-combobox-item {
+    spacing: 1em;
+}
+
+.popup-separator-menu-item {
+    -gradient-height: 1px;
+    -gradient-start: rgba(255, 249, 242, .2);
+    -gradient-end: rgba(255, 249, 242, .2);
+   -margin-horizontal: 0;
+    height: 1px;
+    padding: 0;
+}
+
+.popup-alternating-menu-item:alternate {
+    font-weight: bold;
+}
+
+.popup-slider-menu-item {
+    height: 1em;
+    min-width: 15em;
+    -slider-height: 2px;
+    -slider-background-color: rgba(255, 249, 242, .2);
+    -slider-border-color: transparent;
+    -slider-active-background-color: #FFF9F2;
+    -slider-active-border-color: transparent;
+    -slider-border-width: 0;
+    -slider-handle-radius: 4px;
+    color: #FFF9F2;
+}
+
+.popup-device-menu-item {
+    spacing: .5em;
+}
+
+.popup-inactive-menu-item {
+    font-weight: normal;
+    color: #999;
+}
+
+.popup-subtitle-menu-item {
+    font-weight: bold;
+}
+
+.popup-menu-icon {
+    icon-size: 1em;
+}
+
+.nm-menu-item-icons {
+    spacing: .5em;
+}
+
+
+/* TODO: */
+
+.popup-submenu-menu-item:open {
+    background-color: #4c4c4c;
+}
+
+.popup-sub-menu {
+    background-gradient-start: rgba(80,80,80,0.3);
+    background-gradient-end: rgba(80,80,80,0.7);
+    background-gradient-direction: vertical;
+    box-shadow: inset 0px 2px 4px rgba(0,0,0,0.9);
+}
+
+.popup-sub-menu .popup-menu-item:ltr {
+    padding-right: 0em;
+}
+
+.popup-sub-menu .popup-menu-item:rtl {
+    padding-left: 0em;
+}
+
+.popup-sub-menu StScrollBar {
+    padding: 4px;
+}
+
+.popup-sub-menu StScrollBar StBin#trough {
+    border-width: 0px;
+}
+
+.popup-sub-menu StScrollBar StBin#vhandle {
+    background-color: #4c4c4c;
+    border-width: 0px;
+}

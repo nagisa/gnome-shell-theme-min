@@ -1,0 +1,192 @@
+@import url("panel.css");
+@import url("popup-menu.css");
+@import url("user-menu.css");
+@import url("calendar.css");
+@import url("overview.css");
+@import url("tray.css");
+@import url("looking-glass.css");
+@import url("switchers.css");
+@import url("dialogs.css");
+@import url("keyboard.css");
+
+stage {
+    font-family: "DejaVu Sans", sans-serif;
+    font-size: 10pt;
+    color: #FFF9F2;
+}
+
+/* Scroll Bars */
+
+StScrollBar {
+    padding: 0;
+}
+
+StScrollView.vfade {
+    -st-vfade-offset: 32px;
+}
+
+StScrollView.hfade {
+    -st-hfade-offset: 32px;
+}
+
+StScrollView StScrollBar {
+    min-width: 8px;
+    min-height: 8px;
+}
+
+StScrollBar StBin#trough {
+}
+
+StScrollBar StButton#vhandle,
+StScrollBar StButton#hhandle {
+    background-color: #005F6B;
+}
+
+StScrollBar StButton#hhandle:hover,
+StScrollBar StButton#vhandle:hover {
+    background-color: #008C9E;
+}
+
+StEntry {
+    color: rgba(255, 249, 242, .7);
+    selected-color: #343838;
+    padding: .25em .25em;
+    border: 1px solid #005F6B;
+    border-left: none;
+    border-right: none;
+    caret-color: rgba(255, 249, 242, .5);
+    caret-size: 1px;
+}
+
+StEntry:focus {
+    color: #FFF9F2;
+    border-color: #008C9E;
+    selection-background-color: rgba(255, 249, 242, .7);
+}
+
+.url-highlighter {
+    link-color: #CF3248;
+}
+
+.shell-link {
+    color: rgba(207, 50, 72, .7);
+    text-decoration: underline;
+}
+
+.shell-link:hover {
+    color: #CF3248;
+}
+
+/* TODO: Check Boxes */
+
+.check-box {
+    height: 1.5em;
+}
+
+.check-box ShellGenericContainer {
+    spacing: .5em;
+}
+
+.check-box StBin {
+    width: 1.25em;
+    height: 1.25em;
+    background-size: 1.5em;
+    background-image: url("checkbox-off.svg");
+}
+
+.check-box:focus StBin,
+.check-box:hover StBin {
+    background-image: url("checkbox-off-focused.svg");
+}
+
+.check-box:checked StBin {
+    background-image: url("checkbox.svg");
+}
+
+.check-box:focus:checked StBin,
+.check-box:hover:checked StBin {
+    background-image: url("checkbox-focused.svg");
+}
+
+/* Switches */
+.toggle-switch {
+    width: 48px;
+    height: 14px;
+}
+
+.toggle-switch-us {
+    background-image: url("toggle-off-us.png");
+    background-size: contain;
+}
+.toggle-switch-us:checked {
+    background-image: url("toggle-on-us.png");
+    background-size: contain;
+}
+
+.toggle-switch-intl {
+    background-image: url("toggle-off-intl.png");
+    background-size: contain;
+}
+.toggle-switch-intl:checked {
+    background-image: url("toggle-on-intl.png");
+    background-size: contain;
+}
+/* Buttons */
+
+.dash-search-button,
+.notification-button,
+.notification-icon-button,
+.hotplug-notification-item,
+.hotplug-resident-eject-button,
+.modal-dialog-button {
+    border: 1px solid rgba(255, 249, 242, .5);
+    padding: .5em;
+    background: #343838;
+}
+
+.dash-search-button:hover,
+.notification-button:hover,
+.notification-icon-button:hover,
+.hotplug-notification-item:hover,
+.hotplug-resident-eject-button:hover,
+.modal-dialog-button:hover {
+    background: #005F6B;
+}
+
+.dash-search-button:selected,
+.dash-search-button:focus,
+.notification-button:focus,
+.notification-icon-button:focus,
+.hotplug-notification-item:focus,
+.modal-dialog-button:focus {
+    background: #005F6B;
+}
+
+.dash-search-button:active,
+.dash-search-button:pressed,
+.notification-button:active,
+.notification-icon-button:active,
+.hotplug-notification-item:active,
+.hotplug-resident-eject-button:active,
+.modal-dialog-button:active,
+.modal-dialog-button:pressed {
+    background: #008C9E;
+}
+
+.dash-search-button:disabled,
+.notification-button:disabled,
+.notification-icon-button:disabled,
+.hotplug-notification-item:disabled,
+.hotplug-resident-eject-button:disabled,
+.modal-dialog-button:disabled {
+    color: rgba(255, 249, 242, .5);
+}
+
+/* Magnifier */
+.magnifier-zoom-region {
+    border: 2px solid rgba(128, 0, 0, 255);
+}
+
+.magnifier-zoom-region.full-screen {
+    border-width: 0px;
+}

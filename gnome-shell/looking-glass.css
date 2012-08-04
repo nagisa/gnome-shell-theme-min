@@ -1,0 +1,86 @@
+#LookingGlassDialog {
+    background-color: #343838;
+    padding: .5em;
+}
+
+#LookingGlassDialog > #Toolbar {
+}
+
+#LookingGlassDialog .labels {
+}
+
+#LookingGlassDialog .notebook-tab {
+    -natural-hpadding: 5px;
+    -minimum-hpadding: 5px;
+    font-size: .85em;
+    padding: .5em;
+}
+
+#LookingGlassDialog .notebook-tab:hover {
+    background: #005F6B;
+}
+
+#LookingGlassDialog .notebook-tab:selected {
+    background: #008C9E;
+}
+
+#LookingGlassDialog .lg-inspector-title {
+    font-weight: bold;
+    padding-bottom: .5em;
+}
+
+.lg-completions-text {
+    font-size: .9em;
+    font-style: italic;
+}
+
+.lg-obj-inspector-title {
+    spacing: 4px;
+}
+
+.lg-obj-inspector-button {
+    padding: .5em;
+}
+
+.lg-obj-inspector-button:hover {
+    background: #005F6B;
+}
+
+#LookingGlassDialog StBoxLayout#EvalBox
+{
+    padding: .5em;
+    spacing: 4px;
+}
+
+#LookingGlassDialog StBoxLayout#ResultsArea
+{
+    spacing: 4px;
+}
+
+#lookingGlassExtensions {
+    padding: 4px;
+}
+
+.lg-extension-list {
+    padding: .5em;
+}
+
+.lg-extension {
+    padding: 1em;
+}
+
+.lg-extension-name {
+    font-weight: bold;
+}
+
+.lg-extension-meta {
+    spacing: .5em;
+    padding-top: .25em;
+    font-size: .85em;
+}
+
+#LookingGlassPropertyInspector {
+    background: #343838;
+    padding: .25em .5em;
+    border: 1px solid #005F6B;
+}

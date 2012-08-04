@@ -1,0 +1,35 @@
+#panelUserMenu {
+    spacing: .5em;
+}
+
+.status-chooser {
+    spacing: 0;
+}
+
+.status-chooser .popup-menu-item,
+.status-chooser-combo .popup-menu-item {
+    padding: .5em;
+}
+
+.status-chooser-user-icon {
+    width: 5.5em;
+    height: 5.5em;
+}
+
+.status-chooser-user-name {
+    font-weight: bold;
+    font-size: 1.25em;
+    min-width: 120pt;
+}
+
+.status-chooser-combo {
+}
+
+.status-chooser-combo.popup-combo-menu {
+    background-color: #343838;
+}
+
+.status-chooser-status-item,
+.status-chooser-combo .popup-combobox-item {
+    spacing: .5em;
+}
