@@ -190,3 +190,10 @@ StEntry:focus {
 .magnifier-zoom-region.full-screen {
     border-width: 0px;
 }
+
+/* ETC */
+.flashspot {
+    /* Flash when screenshot is taken */
+    background: rgba(255, 249, 242, .7);
+}
+
