@@ -117,7 +117,7 @@
 }
 
 .end-session-dialog-app-list-item-description {
-    font-size: .85em;
+    font-size: .917em;
     color: rgba(255, 249, 242, .7);
     padding: .25em 0 0 0;
 }
@@ -165,7 +165,7 @@
 }
 
 .show-processes-dialog-app-list {
-    font-size: 10pt;
+    font-size: 1em;
     max-height: 200px;
     padding-top: 24px;
     padding-left: 49px;
@@ -202,7 +202,7 @@
 }
 
 .show-processes-dialog-app-list-item-name {
-    font-size: 10pt;
+    font-size: 1em;
 }
 
 /* Password or Authentication Dialog */

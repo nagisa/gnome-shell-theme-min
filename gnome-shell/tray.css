@@ -160,7 +160,7 @@
 }
 
 .chat-meta-message {
-    font-size: .85em;
+    font-size: .917em;
     padding: 0 .5em 0 0;
     color: rgba(255, 249, 242, .5);
 }
@@ -215,7 +215,7 @@
 
 .summary-source-counter {
     background-color: #343838;
-    font-size: .85em;
+    font-size: .833em;
     min-height: 1em;
     min-width: 1em;
 }

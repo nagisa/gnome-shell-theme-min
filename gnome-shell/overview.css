@@ -23,7 +23,7 @@
 }
 
 .window-caption {
-    font-size: .85em;
+    font-size: .917em;
     background: #343838;
     padding: .5em;
     -shell-caption-spacing: 1px;
@@ -54,7 +54,7 @@
 }
 
 .dash-label {
-    font-size: .85em;
+    font-size: .917em;
     padding: .5em;
     background-color: #343838;
     text-align: center;
@@ -78,7 +78,7 @@
 }
 
 .view-tab-title {
-    font-size: 1.125em;
+    font-size: 1.25em;
     padding: .5em;
     background: #343838;
 }
@@ -175,7 +175,7 @@
 .app-well-app > .overview-icon,
 .remove-favorite > .overview-icon,
 .search-result-content > .overview-icon {
-    font-size: .85em;
+    font-size: .917em;
     padding: .5em;
     text-align: center;
 }
