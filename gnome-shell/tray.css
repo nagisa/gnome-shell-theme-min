@@ -26,7 +26,7 @@
     -arrow-border-color: transparent;
     -arrow-base: 0;
     -arrow-rise: 0;
-    -boxpointer-gap: 0px;
+    -boxpointer-gap: 0;
 }
 
 .summary-boxpointer #notification {
@@ -191,7 +191,7 @@
 }
 
 .summary-source-button {
-    padding: .25em .125em;
+    padding: .25em;
 }
 
 .summary-source-button:hover .summary-source,
