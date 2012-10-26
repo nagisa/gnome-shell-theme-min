@@ -29,12 +29,13 @@
     -shell-caption-spacing: 1px;
 }
 
-.window-close {
+.window-close, .notification-close {
     background: #343838 url("close.svg");
     background-size: 1em;
     height: 1.5em;
     width: 1.5em;
-    -shell-close-overlap: 1.25em;
+    padding: .125em;
+    -shell-close-overlap: 1.5em;
 }
 
 .window-close:rtl {
@@ -65,9 +66,6 @@
     spacing: .5em;
 }
 
-#searchArea {
-}
-
 #searchEntry {
     font-size: 1.5em;
     width: 300px;
@@ -75,20 +73,6 @@
 
 .search-entry-icon {
     icon-size: 1em;
-}
-
-.view-tab-title {
-    font-size: 1.25em;
-    padding: .5em;
-    background: #343838;
-}
-
-.view-tab-title:hover {
-    background: #005F6B;
-}
-
-.view-tab-title:selected {
-    background: #008C9E;
 }
 
 #searchResults {
@@ -174,20 +158,27 @@
 
 .app-well-app > .overview-icon,
 .remove-favorite > .overview-icon,
+.show-apps > .overview-icon,
 .search-result-content > .overview-icon {
     font-size: .917em;
     padding: .5em;
     text-align: center;
 }
 
-.app-well-app.running > .overview-icon {
+.app-well-app.running > .overview-icon,
+.show-apps:checked > .overview-icon {
     background: #008C9E;
 }
 
 .app-well-app:hover > .overview-icon,
 .remove-favorite:hover > .overview-icon,
+.show-apps:hover > .overview-icon,
 .search-result-content:hover > .overview-icon {
     background: #005F6B;
+}
+
+.show-apps-icon {
+    color: #FFF9F2;
 }
 
 .contact-grid {

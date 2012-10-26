@@ -1,14 +1,30 @@
 /* Message Tray */
 #message-tray {
-    height: 2.5em;
+    background: #343838;
+    transition-duration: 0;
+    padding: 0;
 }
 
-#notification {
+#message-tray:keyboard {
+}
+
+#message-tray:overview {
+}
+
+.notification {
     background: #343838;
     spacing-rows: .5em;
     spacing-columns: .5em;
-    width: 32em;
     padding: .5em;
+}
+
+.notification, #notification-container {
+    width: 34em;
+}
+
+.notification-unexpanded {
+    min-height: 36px;
+    height: 36px;
 }
 
 /* We use row-span = 2 for the image cell, which prevents its height preferences to be
@@ -17,6 +33,10 @@
    height of the table to be ICON_SIZE + IMAGE_SIZE + spacing-rows = 24 + 125 + 10 = 159 */
 .notification-with-image {
     min-height: 159px;
+}
+
+.secondary-icon {
+    icon-size: 1em;
 }
 
 .summary-boxpointer {
@@ -29,7 +49,7 @@
     -boxpointer-gap: 0;
 }
 
-.summary-boxpointer #notification {
+.summary-boxpointer .notification {
     padding: .5em;
 }
 
@@ -39,35 +59,35 @@
     padding-bottom: 0;
 }
 
-#summary-notification-stack-scrollview > .top-shadow,
-#summary-notification-stack-scrollview > .bottom-shadow,
-#notification-scrollview > .top-shadow,
-#notification-scrollview > .bottom-shadow {
+.summary-notification-stack-scrollview > .top-shadow,
+.summary-notification-stack-scrollview > .bottom-shadow,
+.notification-scrollview > .top-shadow,
+.notification-scrollview > .bottom-shadow {
     height: .5em;
 }
 
-#summary-notification-stack-scrollview:ltr {
+.summary-notification-stack-scrollview:ltr {
 }
 
-#summary-notification-stack-scrollview:rtl {
+.summary-notification-stack-scrollview:rtl {
 }
 
-#notification-scrollview {
+.notification-scrollview {
     max-height: 15em;
     -st-vfade-offset: 24px;
 }
 
-#notification-scrollview:ltr > StScrollBar {
+.notification-scrollview:ltr > StScrollBar {
 }
 
-#notification-scrollview:rtl > StScrollBar {
+.notification-scrollview:rtl > StScrollBar {
 }
 
-#notification-body {
+.notification-body {
     spacing: 1em;
 }
 
-#notification-actions {
+.notification-actions {
     spacing: 1em;
 }
 
@@ -93,7 +113,7 @@
 }
 
 .hotplug-notification-item-icon {
-    icon-size: 24px;
+    icon-size: 16px;
     padding: 0 .5em 0 0;
 }
 
@@ -121,12 +141,12 @@
 }
 
 .hotplug-resident-mount-icon {
-    icon-size: 32px;
+    icon-size: 24px;
     padding: 0 .25em;
 }
 
 .hotplug-resident-eject-icon {
-    icon-size: 24px;
+    icon-size: 16px;
 }
 
 .hotplug-resident-eject-button {
@@ -187,11 +207,9 @@
  */
 #summary-mode {
     background: #343838;
-    height: 2.5em;
 }
 
 .summary-source-button {
-    padding: .25em;
 }
 
 .summary-source-button:hover .summary-source,
@@ -209,22 +227,12 @@
 }
 
 .summary-source {
-    padding-right: .25em;
-    padding-left: .25em;
+    padding: .5em;
 }
 
 .summary-source-counter {
     background-color: #343838;
-    font-size: .833em;
-    min-height: 1em;
-    min-width: 1em;
-}
-
-.source-title {
-    padding-left: .25em;
-}
-
-.source-title:rtl {
-    padding-left: 0;
-    padding-right: .25em;
+    font-weight: bold;
+    font-size: 1em;
+    padding: .125em;
 }

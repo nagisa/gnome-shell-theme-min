@@ -60,7 +60,7 @@
 
 .datemenu-date-label {
     font-size: 1.125em;
-    padding: 0 1.5em .5em;
+    padding: .5em 1.5em;
     font-weight: bold;
 }
 
@@ -82,6 +82,7 @@
 .calendar-day-heading {
     color: rgba(255, 249, 242, .5);
     padding-top: 1em;
+    height: 1.5em;
 }
 
 .calendar-week-number {

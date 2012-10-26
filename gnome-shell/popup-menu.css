@@ -73,9 +73,14 @@
     spacing: .5em;
 }
 
-.popup-inactive-menu-item {
+.popup-inactive-menu-item, .popup-inactive-menu-item:insensitive {
     font-weight: normal;
-    color: #999;
+    color: #FFF9F2;
+}
+
+.popup-subtitle-menu-item, .popup-subtitle-menu-item:insensitive {
+    font-weight: bold;
+    color: #FFF9F2;
 }
 
 .popup-subtitle-menu-item {
