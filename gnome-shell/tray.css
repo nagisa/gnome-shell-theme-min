@@ -3,6 +3,7 @@
     background: #343838;
     transition-duration: 0;
     padding: 0;
+    height: 5em;
 }
 
 #message-tray:keyboard {
