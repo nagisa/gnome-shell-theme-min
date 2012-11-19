@@ -215,7 +215,10 @@
 
 .summary-source-button:hover .summary-source,
 .summary-source-button:hover .summary-source-counter,
-.summary-source-button:hover {
+.summary-source-button:hover,
+.summary-source-button:focus .summary-source,
+.summary-source-button:focus .summary-source-counter,
+.summary-source-button:focus  {
     background: #005F7B;
 }
 
