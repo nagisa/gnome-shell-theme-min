@@ -32,6 +32,7 @@
 
 #appMenu {
     spacing: 0;
+    spinner-image: url("process-working.svg");
 }
 
 .label-shadow {

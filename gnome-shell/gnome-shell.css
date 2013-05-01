@@ -139,7 +139,8 @@ StEntry:focus {
 .notification-icon-button,
 .hotplug-notification-item,
 .hotplug-resident-eject-button,
-.modal-dialog-button {
+.modal-dialog-button,
+.app-view-control {
     border: 1px solid rgba(255, 249, 242, .5);
     padding: .5em;
     background: #343838;
@@ -150,7 +151,8 @@ StEntry:focus {
 .notification-icon-button:hover,
 .hotplug-notification-item:hover,
 .hotplug-resident-eject-button:hover,
-.modal-dialog-button:hover {
+.modal-dialog-button:hover,
+.app-view-control:hover {
     background: #005F6B;
 }
 
@@ -159,7 +161,8 @@ StEntry:focus {
 .notification-button:focus,
 .notification-icon-button:focus,
 .hotplug-notification-item:focus,
-.modal-dialog-button:focus {
+.modal-dialog-button:focus,
+.app-view-control:focus {
     background: #005F6B;
 }
 
@@ -170,7 +173,9 @@ StEntry:focus {
 .hotplug-notification-item:active,
 .hotplug-resident-eject-button:active,
 .modal-dialog-button:active,
-.modal-dialog-button:pressed {
+.modal-dialog-button:pressed,
+.app-view-control:active,
+.app-view-control:pressed {
     background: #008C9E;
 }
 
