@@ -71,6 +71,7 @@
 .end-session-dialog-logout-icon {
     width: 3.5em;
     height: 3.5em;
+    background-size: contain;
 }
 
 .end-session-dialog-shutdown-icon {
