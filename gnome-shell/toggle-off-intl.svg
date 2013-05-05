@@ -13,7 +13,7 @@
    height="14"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.3.1 r9886"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="toggle-off-intl.svg">
   <defs
      id="defs4" />
@@ -25,16 +25,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="22.4"
-     inkscape:cx="11.197121"
+     inkscape:cx="7.2239067"
      inkscape:cy="4.1759542"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="text2985"
      showgrid="false"
      inkscape:window-width="1366"
-     inkscape:window-height="721"
+     inkscape:window-height="768"
      inkscape:window-x="0"
-     inkscape:window-y="23"
-     inkscape:window-maximized="1" />
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -43,7 +43,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -52,18 +52,14 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-1038.3622)">
-    <text
-       xml:space="preserve"
+    <g
        style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#fff9f2;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-       x="3.1855469"
-       y="1049.7303"
-       id="text2985"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan2987"
-         x="3.1855469"
-         y="1049.7303"
-         style="font-size:12px;font-weight:normal;-inkscape-font-specification:DejaVu Sans">0</tspan></text>
+       id="text2985">
+      <path
+         style="font-size:13px;-inkscape-font-specification:DejaVu Sans"
+         d="m 9.751709,1040.5443 c 0.04231,0 0.097323,0.034 0.165039,0.1016 0.071932,0.068 0.145988,0.1566 0.222168,0.2666 0.122713,-0.2158 0.220043,-0.3237 0.291992,-0.3238 0.06347,10e-5 0.150219,0.057 0.260254,0.1714 0.0677,0.072 0.101553,0.1524 0.101563,0.2412 -1e-5,0.1143 -0.04656,0.2201 -0.139649,0.3174 -0.8802163,0.9564 -1.7350331,2.008 -2.564453,3.1548 0.3427667,0.8379 0.8167246,1.7625 1.421875,2.7739 0.050773,0.085 0.076164,0.1524 0.076172,0.2032 -7.9e-6,0.097 -0.063484,0.1989 -0.1904297,0.3046 l -0.203125,0.1397 c 0.01692,0.051 0.025383,0.1185 0.025391,0.2031 -7.6e-6,0.127 -0.046557,0.2243 -0.1396485,0.292 -0.1100333,0.076 -0.1904369,0.1143 -0.2412109,0.1143 -0.1100331,0 -0.2073637,-0.055 -0.2919922,-0.1651 -0.5078189,-0.6517 -1.0325579,-1.4176 -1.5742188,-2.2978 -0.7278691,0.9479 -1.5615271,2.2132 -2.5009765,3.7959 -0.1354193,0.2285 -0.3639347,0.3428 -0.6855469,0.3428 -0.1523457,0 -0.236981,-0.089 -0.2539062,-0.2666 -0.215822,-0.1185 -0.323732,-0.3069 -0.3237305,-0.565 -1.5e-6,-0.3385 0.023273,-0.5734 0.069824,-0.7046 0.021157,-0.059 0.088865,-0.1777 0.203125,-0.3554 0.8632786,-1.3457 1.7773402,-2.5814 2.7421875,-3.7071 -0.5162801,-1.2272 -0.8590532,-2.173 -1.0283203,-2.8374 -0.038089,-0.1481 -0.057132,-0.2433 -0.057129,-0.2856 -3.5e-6,-0.059 0.038082,-0.1439 0.1142578,-0.2539 0.0804,-0.11 0.1544559,-0.1651 0.222168,-0.1651 0.063473,0 0.1438762,0.061 0.2412109,0.1841 0.038082,-0.072 0.084631,-0.1333 0.1396484,-0.1841 0.076168,-0.068 0.1734983,-0.1015 0.2919922,-0.1015 0.1354121,0 0.2242792,0.064 0.2666016,0.1904 0.2285107,0.7109 0.5289661,1.388 0.9013672,2.0312 0.6009052,-0.7786 1.3330008,-1.5996 2.196289,-2.4628 0.1015546,-0.1016 0.1819582,-0.1524 0.241211,-0.1524"
+         id="path3353" />
+    </g>
     <flowRoot
        xml:space="preserve"
        id="flowRoot2989"
@@ -75,5 +71,5 @@
            height="21.964285"
            x="-29.642857"
            y="-26.178572" /></flowRegion><flowPara
-         id="flowPara2995"></flowPara></flowRoot>  </g>
+         id="flowPara2995" /></flowRoot>  </g>
 </svg>
